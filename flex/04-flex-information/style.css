@@ -12,6 +12,40 @@ img {
   font-weight: 900;
 }
 
+.master {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 32px;
+} */
+
+/* .barberryContainer,
+.chilliContainer,
+.pepperContainer,
+.saffronContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 52px;
+  text-align: center;
+}
+ */
+.master {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+body {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
